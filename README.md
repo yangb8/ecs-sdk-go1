@@ -6,14 +6,15 @@ Checkout our EMC ECS REST API for ECS S3 Extension Features
 
 ## Installing
 
-    go get -u github.com/EMCECS/ecs-sdk-go
-	go get -u github.com/aws/aws-sdk-go
+    * go get -u github.com/EMCECS/ecs-sdk-go
+	* go get -u github.com/aws/aws-sdk-go
 
 	or
 
-	import github.com/EMCECS/ecs-sdk-go in your code and leverage glide or similar tool to pull ecs-sdk-go and aws-sdk-go automatially
-	[glide](https://github.com/Masterminds/glide) init
-	[glide](https://github.com/Masterminds/glide) install
+	import github.com/EMCECS/ecs-sdk-go in your code and leverage glide or similar tool to pull ecs-sdk-go and
+	aws-sdk-go automatially
+	* [glide](https://github.com/Masterminds/glide) init
+	* [glide](https://github.com/Masterminds/glide) install
 
 
 ## New APIs
