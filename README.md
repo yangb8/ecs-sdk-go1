@@ -1,17 +1,17 @@
-# ECS SDK for Go
+# ECS Object Client for Go
 
-The ecs-sdk-go is an extended SDK for Dell/EMC ECS based on official AWS SDK for the Go programming language.
+The ecs-object-client-go is an extended SDK for Dell/EMC ECS based on official AWS SDK for the Go programming language.
 
 Checkout our EMC ECS REST API for ECS S3 Extension Features
 
 ## Installing
 
-* go get -u github.com/EMCECS/ecs-sdk-go
+* go get -u github.com/EMCECS/ecs-object-client-go
 * go get -u github.com/aws/aws-sdk-go
 
   or
 
-  import github.com/EMCECS/ecs-sdk-go in your code and leverage glide or similar tool to pull ecs-sdk-go and
+  import github.com/EMCECS/ecs-object-client-go in your code and leverage glide or similar tool to pull ecs-object-client-go and
 	aws-sdk-go automatially
 * [glide](https://github.com/Masterminds/glide) init
 * [glide](https://github.com/Masterminds/glide) install
@@ -33,6 +33,12 @@ Checkout our EMC ECS REST API for ECS S3 Extension Features
 * HeadObject
 * PutObject
 
+## Testing
+
+* Setup configrations in `test_config.yaml`
+* [glide](https://github.com/Masterminds/glide) install
+* go test -v
+
 ## Usage
 
 ```go
@@ -42,7 +48,7 @@ import (
     "github.com/aws/aws-sdk-go/aws"
     "github.com/aws/aws-sdk-go/aws/credentials"
     "github.com/aws/aws-sdk-go/aws/session"
-    "github.com/EMCECS/ecs-sdk-go"
+    "github.com/EMCECS/ecs-object-client-go"
 )
 
 func main() {
